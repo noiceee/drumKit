@@ -5,6 +5,7 @@ for (let i=0; i<drums.length; i++){
      function (){
          var audio = new Audio("sounds/"+audioFiles[i]);
          audio.play();
+         runAnimation(drums[i]);
         });
 }
 window.addEventListener("keydown", myEventHandler);

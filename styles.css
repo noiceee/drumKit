@@ -86,9 +86,6 @@ background-image: linear-gradient(45deg, #755bea , #ff72c0);
     font-size: 40px;
   }
 }
-.drum:active{
-  transform: translateY(10px);
-}
 .btn{
   position: relative;
   font-size: 18px;
